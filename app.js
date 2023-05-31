@@ -30,7 +30,7 @@ async function main() {
   const itemsSchema = new mongoose.Schema({
     name: {
       type: String,
-      required: [true, "New task can't be blank"]
+      // required: [true, "New task can't be blank"]
     }
   })
 
